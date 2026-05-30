@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://alisyahbanaku.github.io/cantikjuara/sitemap.xml

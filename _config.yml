@@ -1,0 +1,27 @@
+title: CantikJuara
+description: Review jujur produk kecantikan dan fashion di Shopee Indonesia. Skincare, parfum, tas, sepatu — based on real use, bukan template AI.
+url: https://alisyahbanaku.github.io
+baseurl: /cantikjuara
+author: Iqbal
+lang: id-ID
+timezone: Asia/Jakarta
+
+markdown: kramdown
+permalink: /:categories/:title/
+
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: review
+      author: Iqbal
+
+exclude:
+  - README.md
+  - .gitignore
